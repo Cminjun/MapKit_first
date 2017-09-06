@@ -81,6 +81,8 @@ class ViewController: UIViewController, MKMapViewDelegate {
     }
     
     func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
+
+        print("he he clicked")
         let anno = view.annotation
         let aTitle = anno?.title
         let aSubTitle = anno?.subtitle
@@ -88,6 +90,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
         let ac = UIAlertController(title: aTitle! ,message: aSubTitle! , preferredStyle: .alert)
         ac.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
         present(ac, animated: true, completion: nil)
+        
     }
 
     
