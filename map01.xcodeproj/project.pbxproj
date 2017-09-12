@@ -16,6 +16,7 @@
 		24285CE91F5E72BC00AF3248 /* map01UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24285CE81F5E72BC00AF3248 /* map01UITests.swift */; };
 		24285CF71F5E7C6F00AF3248 /* simin.png in Resources */ = {isa = PBXBuildFile; fileRef = 24285CF61F5E7C6F00AF3248 /* simin.png */; };
 		24285CF91F5E7C7200AF3248 /* dit.png in Resources */ = {isa = PBXBuildFile; fileRef = 24285CF81F5E7C7200AF3248 /* dit.png */; };
+		24C73B9B1F67B55F00388CF6 /* locationIformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C73B9A1F67B55F00388CF6 /* locationIformation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		24285CEA1F5E72BC00AF3248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24285CF61F5E7C6F00AF3248 /* simin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = simin.png; sourceTree = "<group>"; };
 		24285CF81F5E7C7200AF3248 /* dit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dit.png; sourceTree = "<group>"; };
+		24C73B9A1F67B55F00388CF6 /* locationIformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = locationIformation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				24285CCF1F5E72BB00AF3248 /* Assets.xcassets */,
 				24285CD11F5E72BB00AF3248 /* LaunchScreen.storyboard */,
 				24285CD41F5E72BB00AF3248 /* Info.plist */,
+				24C73B9A1F67B55F00388CF6 /* locationIformation.swift */,
 			);
 			path = map01;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			files = (
 				24285CCB1F5E72BB00AF3248 /* ViewController.swift in Sources */,
 				24285CC91F5E72BB00AF3248 /* AppDelegate.swift in Sources */,
+				24C73B9B1F67B55F00388CF6 /* locationIformation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +517,7 @@
 				24285CEF1F5E72BC00AF3248 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24285CF01F5E72BC00AF3248 /* Build configuration list for PBXNativeTarget "map01Tests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +526,7 @@
 				24285CF21F5E72BC00AF3248 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24285CF31F5E72BC00AF3248 /* Build configuration list for PBXNativeTarget "map01UITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +535,7 @@
 				24285CF51F5E72BC00AF3248 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
