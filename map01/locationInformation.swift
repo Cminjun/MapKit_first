@@ -1,5 +1,5 @@
 //
-//  locationIformation.swift
+//  locationInformation.swift
 //  map01
 //
 //  Created by D7703_14 on 2017. 9. 12..
@@ -8,7 +8,7 @@
 
 import UIKit
 import MapKit
-class locationIformation: NSObject,MKAnnotation {
+class locationInformation: NSObject,MKAnnotation {
 
     var coordinate: CLLocationCoordinate2D
     var title: String?

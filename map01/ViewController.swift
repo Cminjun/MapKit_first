@@ -31,9 +31,9 @@ class ViewController: UIViewController, MKMapViewDelegate {
        
         
         
-        let busanSimin = locationIformation.init(coordinate: CLLocationCoordinate2DMake(35.168444, 129.057832), title: "부산 시민 공원", subtitle: "부산 공원", info: "busan")
+        let busanSimin = locationInformation.init(coordinate: CLLocationCoordinate2DMake(35.168444, 129.057832), title: "부산 시민 공원", subtitle: "부산 공원", info: "busan")
         
-        let dit = locationIformation.init(coordinate: CLLocationCoordinate2DMake(35.166197, 129.072594), title: "DIT", subtitle: "동과대", info: "동의과학대")
+        let dit = locationInformation.init(coordinate: CLLocationCoordinate2DMake(35.166197, 129.072594), title: "DIT", subtitle: "동과대", info: "동의과학대")
         
         
         mapView.addAnnotations([busanSimin,dit])
