@@ -10,7 +10,7 @@ import UIKit
 import MapKit
 
 class ViewController: UIViewController, MKMapViewDelegate {
-
+    
     @IBOutlet weak var mapView: MKMapView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,10 +22,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
         
         mapView.setRegion(region, animated: true)
         
-        let anno01 = MKPointAnnotation()
-        anno01.coordinate = center
-        anno01.title = "DIT"
-        anno01.subtitle = "동과대"
+        
         
         // 부산시민공원 35.168444, 129.057832
        
@@ -34,9 +31,9 @@ class ViewController: UIViewController, MKMapViewDelegate {
         let busanSimin = locationInformation.init(coordinate: CLLocationCoordinate2DMake(35.168444, 129.057832), title: "부산 시민 공원", subtitle: "부산 공원", info: "busan")
         
         let dit = locationInformation.init(coordinate: CLLocationCoordinate2DMake(35.166197, 129.072594), title: "DIT", subtitle: "동과대", info: "동의과학대")
+        let songsanghun = locationInformation.init(coordinate: CLLocationCoordinate2DMake(35.163979, 129.064872), title: "송상현 광장", subtitle: "공원!", info: "송광")
         
-        
-        mapView.addAnnotations([busanSimin,dit])
+        mapView.addAnnotations([busanSimin,dit,songsanghun])
         
     }
     
@@ -78,6 +75,9 @@ class ViewController: UIViewController, MKMapViewDelegate {
         
         return annotationView
         
+        
+    }
+    func mapViewDidFinishRenderingMap(_ mapView: MKMapView, fullyRendered: Bool) {
         
     }
     
